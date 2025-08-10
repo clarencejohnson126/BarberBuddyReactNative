@@ -1,0 +1,50 @@
+# Cursor ignore file - controls what files Cursor AI can access
+# By default, Cursor blocks access to sensitive files for security
+
+# Allow access to .env files (needed for development)
+!.env
+!.env.example
+!.env.local
+
+# Block other sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.crt
+*.cert
+secrets.json
+config.json
+credentials.json
+service-account.json
+
+# Block node_modules (too large)
+node_modules/
+
+# Block build artifacts
+dist/
+build/
+*.log
+*.tmp
+
+# Block OS files
+.DS_Store
+Thumbs.db
+
+# Block git files
+.git/
+.gitignore
+
+# Block IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Block package manager files (can be large)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml 

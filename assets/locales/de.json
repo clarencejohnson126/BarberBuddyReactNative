@@ -1,0 +1,162 @@
+{
+  "common": {
+    "continue": "Weiter",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "share": "Teilen",
+    "download": "Herunterladen",
+    "retry": "Erneut versuchen",
+    "upgrade": "Upgraden",
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "ok": "OK"
+  },
+  "plans": {
+    "free": "Kostenlos",
+    "fly": "Fly",
+    "superFly": "Super Fly",
+    "recommended": "Empfohlen",
+    "legal": "Preise in USD. Verlängert sich monatlich. Jederzeit in den Einstellungen kündbar."
+  },
+  "onboarding": {
+    "welcome": "Willkommen bei Barber Buddy",
+    "subtitle": "KI-gestützte Frisurvorschau in Sekunden",
+    "getStarted": "Loslegen",
+    "privacyConsent": "Ich stimme der Datenschutzrichtlinie und den Nutzungsbedingungen zu",
+    "skipTour": "Tour überspringen"
+  },
+  "home": {
+    "title": "Starten Sie Ihre KI-Haar-Transformation",
+    "subtitle": "Laden Sie Ihr Foto hoch, um zu beginnen",
+    "choosePhoto": "Foto auswählen",
+    "fileConstraints": "PNG, JPG bis zu 50MB",
+    "tryUnlimitedStyles": "Probieren Sie unbegrenzte Stile in Sekunden",
+    "previewHairstyles": "Frisuren Vorschau"
+  },
+  "camera": {
+    "takePhoto": "Foto aufnehmen",
+    "chooseFromLibrary": "Aus Bibliothek wählen",
+    "retakePhoto": "Foto erneut aufnehmen",
+    "cropAndCenter": "Gesicht/Haare für beste Ergebnisse zuschneiden und zentrieren"
+  },
+  "haircuts": {
+    "selectStyle": "Frisur-Stil auswählen",
+    "customPrompt": "Oder gewünschten Stil beschreiben",
+    "customPromptPlaceholder": "z.B. kurzer Bob mit Pony",
+    "customPromptWarning": "Benutzerdefinierte Eingaben können die Charakterkonsistenz beeinträchtigen",
+    "gender": "Geschlecht",
+    "hairColor": "Haarfarbe",
+    "imageFormat": "Bildformat",
+    "generatePreview": "Vorschau generieren"
+  },
+  "styles": {
+    "classic": "Klassischer Schnitt",
+    "modern": "Moderner Stil",
+    "buzz": "Buzz Cut",
+    "fade": "Fade",
+    "bob": "Bob-Schnitt",
+    "pixie": "Pixie-Schnitt",
+    "layers": "Stufenschnitt",
+    "curly": "Lockiger Stil"
+  },
+  "genders": {
+    "male": "Männlich",
+    "female": "Weiblich",
+    "other": "Andere"
+  },
+  "colors": {
+    "natural": "Natürlich",
+    "blonde": "Blond",
+    "brown": "Braun",
+    "black": "Schwarz",
+    "red": "Rot",
+    "gray": "Grau"
+  },
+  "formats": {
+    "jpeg": "JPEG",
+    "png": "PNG"
+  },
+  "generation": {
+    "generating": "Ihr neuer Look wird generiert...",
+    "almostDone": "Fast fertig...",
+    "processingSafelySecurely": "Wird sicher und geschützt verarbeitet",
+    "processingOpenAIDescription": "OpenAI GPT Image 1 erstellt Ihre benutzerdefinierte Haarverwandlung..."
+  },
+  "results": {
+    "yourNewLook": "Ihr neuer Look",
+    "beforeAfter": "Vorher & Nachher",
+    "before": "Vorher",
+    "after": "Nachher",
+    "beforeDescription": "Ihr ursprüngliches Foto",
+    "afterDescription": "Ihr KI-generierter Haarschnitt-Vorschau",
+    "saveToLibrary": "In Bibliothek speichern",
+    "shareResult": "Ergebnis teilen",
+    "downloadImage": "Bild herunterladen",
+    "generateAnother": "Weitere generieren"
+  },
+  "subscription": {
+    "freeLimit": "Kostenloses Limit erreicht",
+    "freeLimitMessage": "Sie haben Ihre kostenlose Vorschau verwendet. Upgraden Sie für weitere Stile!",
+    "upgradeToUnlock": "Upgraden Sie für weitere Stile",
+    "freePlan": "Kostenloser Plan",
+    "plusPlan": "Plus Plan",
+    "proPlan": "Pro Plan",
+    "freeFeatures": "1 Frisurvorschau",
+    "plusFeatures": "20 Vorschauen/Monat + In Bibliothek speichern",
+    "proFeatures": "50 Vorschauen/Monat + In Bibliothek speichern",
+    "monthlyPrice": "/Monat",
+    "selectPlan": "Plan auswählen",
+    "currentPlan": "Aktueller Plan",
+    "usageRemaining": "{{remaining}} Vorschauen in diesem Monat verbleibend"
+  },
+  "marketplace": {
+    "comingSoon": "Demnächst: Friseure in Ihrer Nähe in der App buchen",
+    "stayTuned": "Bleiben Sie dran für Buchungsfunktionen!"
+  },
+  "settings": {
+    "settings": "Einstellungen",
+    "language": "Sprache",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "version": "Version",
+    "logout": "Abmelden"
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "tr": "Türkçe"
+  },
+  "errors": {
+    "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "serviceUnavailable": "Service vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut.",
+    "invalidImage": "Ungültiges Bildformat. Bitte verwenden Sie JPEG oder PNG.",
+    "generationFailed": "Bildgenerierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "uploadFailed": "Upload fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "somethingWentWrong": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "cameraCaptureFailed": "Foto aufnehmen fehlgeschlagen. Bitte versuchen Sie es erneut."
+  },
+  "support": {
+    "contactSupport": "Support kontaktieren",
+    "emailSubject": "Barber Buddy Support-Anfrage"
+  },
+  "permissions": {
+    "cameraRollRequired": "Berechtigung für den Zugriff auf die Fotomediathek ist erforderlich!",
+    "cameraRequired": "Berechtigung für den Zugriff auf die Kamera ist erforderlich!",
+    "choosePhotoMethod": "Wählen Sie, wie Sie Ihr Foto hinzufügen möchten"
+  },
+  "benefits": {
+    "identity": "Sehen Sie den Haarschnitt auf Ihrem Gesicht",
+    "presets": "30+ von Barbieren empfohlene Stile",
+    "fast": "Schneller entscheiden mit Sofort‑Vorschauen",
+    "privacy": "Zeigen Sie dem Barber genau, was Sie wollen",
+    "highQuality": "Finden Sie Schnitte, die zur Gesichtsform passen",
+    "noSignup": "Stile nebeneinander vergleichen",
+    "mobileReady": "Favoriten speichern und mitnehmen",
+    "easyUpload": "Teilen und Feedback einholen",
+    "securePayment": "Schlechte Haarschnitte vermeiden – zuerst testen",
+    "support": "Längen, Fades & Scheitel ausprobieren"
+  }
+}

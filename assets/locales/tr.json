@@ -1,0 +1,157 @@
+{
+  "common": {
+    "continue": "Devam Et",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "share": "Paylaş",
+    "download": "İndir",
+    "retry": "Tekrar Dene",
+    "upgrade": "Yükselt",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "ok": "Tamam"
+  },
+  "benefits": {
+    "identity": "Saç kesimini kendi yüzünde gör",
+    "presets": "30+ berber onaylı stil",
+    "fast": "Anlık önizleme ile hızlı karar ver",
+    "privacy": "Berbere tam olarak ne istediğini göster",
+    "highQuality": "Yüz şekline uygun kesimleri bul",
+    "noSignup": "Stilleri yan yana karşılaştır",
+    "mobileReady": "Favorileri kaydet, berbere götür",
+    "easyUpload": "Paylaş ve arkadaşlarından yorum al",
+    "securePayment": "Kötü kesimlerden kaçın – önce dene",
+    "support": "Uzunluk, fade ve ayırma çizgilerini dene"
+  },
+  "onboarding": {
+    "welcome": "Barber Buddy'ye Hoş Geldiniz",
+    "subtitle": "Saniyeler içinde AI destekli saç kesimi önizleme",
+    "getStarted": "Başlayın",
+    "privacyConsent": "Gizlilik Politikası ve Hizmet Şartlarını kabul ediyorum",
+    "skipTour": "Turu Atla"
+  },
+  "home": {
+    "title": "AI Saç Dönüşümünüzü Başlatın",
+    "subtitle": "Başlamak için fotoğrafınızı yükleyin",
+    "choosePhoto": "Fotoğraf Seç",
+    "fileConstraints": "PNG, JPG 50MB'a kadar",
+    "tryUnlimitedStyles": "Saniyeler içinde sınırsız stiller deneyin",
+    "previewHairstyles": "Saç stillerini önizle"
+  },
+  "camera": {
+    "takePhoto": "Fotoğraf Çek",
+    "chooseFromLibrary": "Galeriden Seç",
+    "retakePhoto": "Yeniden Fotoğraf Çek",
+    "cropAndCenter": "En iyi sonuçlar için yüzünüzü/saçınızı kırpın ve ortala"
+  },
+  "haircuts": {
+    "selectStyle": "Saç Kesimi Stili Seçin",
+    "customPrompt": "Veya istediğiniz stili tanımlayın",
+    "customPromptPlaceholder": "örn. küt saç modeli",
+    "customPromptWarning": "Özel açıklamalar karakter tutarlılığını etkileyebilir",
+    "gender": "Cinsiyet",
+    "hairColor": "Saç Rengi",
+    "imageFormat": "Görüntü Formatı",
+    "generatePreview": "Önizleme Oluştur"
+  },
+  "styles": {
+    "classic": "Klasik Kesim",
+    "modern": "Modern Stil",
+    "buzz": "Buzz Kesim",
+    "fade": "Fade",
+    "bob": "Bob Kesim",
+    "pixie": "Pixie Kesim",
+    "layers": "Katmanlı Kesim",
+    "curly": "Kıvırcık Stil"
+  },
+  "genders": {
+    "male": "Erkek",
+    "female": "Kadın",
+    "other": "Diğer"
+  },
+  "colors": {
+    "natural": "Doğal",
+    "blonde": "Sarı",
+    "brown": "Kahverengi",
+    "black": "Siyah",
+    "red": "Kızıl",
+    "gray": "Gri"
+  },
+  "formats": {
+    "jpeg": "JPEG",
+    "png": "PNG"
+  },
+  "generation": {
+    "generating": "Yeni görünümünüz oluşturuluyor...",
+    "almostDone": "Neredeyse bitti...",
+    "processingSafelySecurely": "Güvenli ve güvenilir şekilde işleniyor"
+  },
+  "results": {
+    "yourNewLook": "Yeni Görünümünüz",
+    "beforeAfter": "Önce ve Sonra",
+    "saveToLibrary": "Kütüphaneye Kaydet",
+    "shareResult": "Sonucu Paylaş",
+    "downloadImage": "Resmi İndir",
+    "generateAnother": "Başka Bir Tane Oluştur"
+  },
+  "subscription": {
+    "freeLimit": "Ücretsiz Limit Doldu",
+    "freeLimitMessage": "Ücretsiz önizlemenizi kullandınız. Daha fazla stil için yükseltin!",
+    "upgradeToUnlock": "Daha fazla stil için yükseltin",
+    "freePlan": "Ücretsiz Plan",
+    "plusPlan": "Plus Plan",
+    "proPlan": "Pro Plan",
+    "freeFeatures": "1 saç kesimi önizlemesi",
+    "plusFeatures": "20 önizleme/ay + Kütüphaneye kaydet",
+    "proFeatures": "50 önizleme/ay + Kütüphaneye kaydet",
+    "monthlyPrice": "/ay",
+    "selectPlan": "Plan Seç",
+    "currentPlan": "Mevcut Plan",
+    "usageRemaining": "Bu ay {{remaining}} önizleme kaldı"
+  },
+  "marketplace": {
+    "comingSoon": "Yakında: Yakınınızdaki kuaförleri uygulamada rezerve edin",
+    "stayTuned": "Rezervasyon özellikleri için bizi takip edin!"
+  },
+  "settings": {
+    "settings": "Ayarlar",
+    "language": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "support": "Destek",
+    "version": "Sürüm",
+    "logout": "Çıkış Yap"
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "tr": "Türkçe"
+  },
+  "errors": {
+    "networkError": "Ağ hatası. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.",
+    "serviceUnavailable": "Hizmet geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+    "invalidImage": "Geçersiz görüntü formatı. Lütfen JPEG veya PNG kullanın.",
+    "generationFailed": "Görüntü oluşturma başarısız. Lütfen tekrar deneyin.",
+    "uploadFailed": "Yükleme başarısız. Lütfen tekrar deneyin.",
+    "somethingWentWrong": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "cameraCaptureFailed": "Fotoğraf çekme başarısız. Lütfen tekrar deneyin."
+  },
+  "support": {
+    "contactSupport": "Destek ile İletişim",
+    "emailSubject": "Barber Buddy Destek Talebi"
+  },
+  "permissions": {
+    "cameraRollRequired": "Fotoğraf galerisine erişim izni gereklidir!",
+    "cameraRequired": "Kameraya erişim izni gereklidir!",
+    "choosePhotoMethod": "Fotoğrafınızı nasıl ekleyeceğinizi seçin"
+  },
+  "plans": {
+    "free": "Ücretsiz",
+    "fly": "Fly",
+    "superFly": "Super Fly",
+    "recommended": "Önerilen",
+    "legal": "Fiyatlar USD cinsindendir. Aylık yenilenir. Ayarlar'dan istediğiniz zaman iptal edin."
+  }
+}

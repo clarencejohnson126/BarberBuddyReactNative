@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false
+  },
+  "extends": "expo/tsconfig.base",
+  "exclude": [
+    "src/utils/testHelpers.ts"
+  ]
+}

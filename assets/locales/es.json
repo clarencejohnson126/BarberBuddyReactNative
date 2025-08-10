@@ -1,0 +1,157 @@
+{
+  "common": {
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "share": "Compartir",
+    "download": "Descargar",
+    "retry": "Reintentar",
+    "upgrade": "Actualizar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "ok": "OK"
+  },
+  "benefits": {
+    "identity": "Mira el corte en tu propia cara",
+    "presets": "Más de 30 estilos aprobados por barberos",
+    "fast": "Decide más rápido con vistas previas",
+    "privacy": "Muestra al barbero exactamente lo que quieres",
+    "highQuality": "Encuentra cortes que encajen con tu rostro",
+    "noSignup": "Compara estilos lado a lado",
+    "mobileReady": "Guarda favoritos para llevar a la barbería",
+    "easyUpload": "Comparte para recibir opiniones",
+    "securePayment": "Evita malos cortes: previsualiza primero",
+    "support": "Prueba largos, fades y rayas"
+  },
+  "onboarding": {
+    "welcome": "Bienvenido a Barber Buddy",
+    "subtitle": "Vista previa de cortes de cabello con IA en segundos",
+    "getStarted": "Comenzar",
+    "privacyConsent": "Acepto la Política de Privacidad y los Términos de Servicio",
+    "skipTour": "Saltar Tour"
+  },
+  "home": {
+    "title": "Comienza tu Transformación Capilar IA",
+    "subtitle": "Sube tu foto para comenzar",
+    "choosePhoto": "Elegir Foto",
+    "fileConstraints": "PNG, JPG hasta 50MB",
+    "tryUnlimitedStyles": "Prueba estilos ilimitados en segundos",
+    "previewHairstyles": "Vista previa de peinados"
+  },
+  "camera": {
+    "takePhoto": "Tomar Foto",
+    "chooseFromLibrary": "Elegir de la Biblioteca",
+    "retakePhoto": "Tomar Foto de Nuevo",
+    "cropAndCenter": "Recorta y centra tu cara/cabello para mejores resultados"
+  },
+  "haircuts": {
+    "selectStyle": "Seleccionar Estilo de Corte",
+    "customPrompt": "O describe tu estilo deseado",
+    "customPromptPlaceholder": "ej. bob corto con flequillo",
+    "customPromptWarning": "Las indicaciones personalizadas pueden afectar la consistencia del personaje",
+    "gender": "Género",
+    "hairColor": "Color de Cabello",
+    "imageFormat": "Formato de Imagen",
+    "generatePreview": "Generar Vista Previa"
+  },
+  "styles": {
+    "classic": "Corte Clásico",
+    "modern": "Estilo Moderno",
+    "buzz": "Corte al Ras",
+    "fade": "Degradado",
+    "bob": "Corte Bob",
+    "pixie": "Corte Pixie",
+    "layers": "Corte en Capas",
+    "curly": "Estilo Rizado"
+  },
+  "genders": {
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro"
+  },
+  "colors": {
+    "natural": "Natural",
+    "blonde": "Rubio",
+    "brown": "Castaño",
+    "black": "Negro",
+    "red": "Rojo",
+    "gray": "Gris"
+  },
+  "formats": {
+    "jpeg": "JPEG",
+    "png": "PNG"
+  },
+  "generation": {
+    "generating": "Generando tu nuevo look...",
+    "almostDone": "Casi terminado...",
+    "processingSafelySecurely": "Procesando de forma segura y protegida"
+  },
+  "results": {
+    "yourNewLook": "Tu Nuevo Look",
+    "beforeAfter": "Antes y Después",
+    "saveToLibrary": "Guardar en Biblioteca",
+    "shareResult": "Compartir Resultado",
+    "downloadImage": "Descargar Imagen",
+    "generateAnother": "Generar Otro"
+  },
+  "subscription": {
+    "freeLimit": "Límite Gratuito Alcanzado",
+    "freeLimitMessage": "Has usado tu vista previa gratuita. ¡Actualiza para desbloquear más estilos!",
+    "upgradeToUnlock": "Actualiza para desbloquear más estilos",
+    "freePlan": "Plan Gratuito",
+    "plusPlan": "Plan Plus",
+    "proPlan": "Plan Pro",
+    "freeFeatures": "1 vista previa de corte",
+    "plusFeatures": "20 vistas previas/mes + Guardar en biblioteca",
+    "proFeatures": "50 vistas previas/mes + Guardar en biblioteca",
+    "monthlyPrice": "/mes",
+    "selectPlan": "Seleccionar Plan",
+    "currentPlan": "Plan Actual",
+    "usageRemaining": "{{remaining}} vistas previas restantes este mes"
+  },
+  "marketplace": {
+    "comingSoon": "Próximamente: Reserva peluqueros cerca de ti en la app",
+    "stayTuned": "¡Mantente atento a las funciones de reserva!"
+  },
+  "settings": {
+    "settings": "Configuración",
+    "language": "Idioma",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "support": "Soporte",
+    "version": "Versión",
+    "logout": "Cerrar Sesión"
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "tr": "Türkçe"
+  },
+  "errors": {
+    "networkError": "Error de red. Por favor verifica tu conexión e inténtalo de nuevo.",
+    "serviceUnavailable": "Servicio temporalmente no disponible. Por favor inténtalo más tarde.",
+    "invalidImage": "Formato de imagen inválido. Por favor usa JPEG o PNG.",
+    "generationFailed": "Generación de imagen falló. Por favor inténtalo de nuevo.",
+    "uploadFailed": "Subida falló. Por favor inténtalo de nuevo.",
+    "somethingWentWrong": "Algo salió mal. Por favor inténtalo de nuevo.",
+    "cameraCaptureFailed": "Error al capturar foto. Inténtalo de nuevo."
+  },
+  "support": {
+    "contactSupport": "Contactar Soporte",
+    "emailSubject": "Solicitud de Soporte Barber Buddy"
+  },
+  "permissions": {
+    "cameraRollRequired": "¡Se requiere permiso para acceder a la galería de fotos!",
+    "cameraRequired": "¡Se requiere permiso para acceder a la cámara!",
+    "choosePhotoMethod": "Elige cómo agregar tu foto"
+  },
+  "plans": {
+    "free": "Gratis",
+    "fly": "Fly",
+    "superFly": "Super Fly",
+    "recommended": "Recomendado",
+    "legal": "Precios en USD. Se renueva mensualmente. Cancela en Configuración."
+  }
+}

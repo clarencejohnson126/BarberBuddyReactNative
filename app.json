@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "BarberBuddy",
+    "slug": "barberbuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.barberbuddy.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.barberbuddy.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "barberbuddy"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "barberbuddy",
+    "sdkVersion": "50.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "3a26a216-653c-4b8c-a93e-2e32099100a5"
+      },
+      "REPLICATE_API_TOKEN": "REPLICATE_API_TOKEN",
+      "SUPABASE_URL": "SUPABASE_URL",
+      "SUPABASE_ANON_KEY": "SUPABASE_ANON_KEY",
+      "OPENAI_API_KEY": "OPENAI_API_KEY",
+      "STRIPE_PUBLISHABLE_KEY": "STRIPE_PUBLISHABLE_KEY",
+      "STRIPE_SECRET_KEY": "STRIPE_SECRET_KEY",
+      "STRIPE_ACCOUNT_ID_EXPECTED": "STRIPE_ACCOUNT_ID_EXPECTED",
+      "STRIPE_ALLOW_CATALOG_MUTATIONS": "true",
+      "ADMIN_ALERT_THRESHOLD": "500",
+      "GLOBAL_FREE_LIMIT": "1000"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/3a26a216-653c-4b8c-a93e-2e32099100a5"
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "project": {
+    "name": "BarberBuddy",
+    "type": "react-native-expo",
+    "description": "Mobile barbershop management application with booking, scheduling, and customer management features",
+    "version": "1.0.0",
+    "author": "BarberBuddy Team",
+    "platform": ["ios", "android", "web"]
+  },
+  "development": {
+    "framework": "expo",
+    "language": "typescript",
+    "packageManager": "npm",
+    "nodeVersion": ">=18.0.0",
+    "expoSdkVersion": "~51.0.0"
+  },
+  "paths": {
+    "src": "./src",
+    "assets": "./assets",
+    "components": "./src/components",
+    "screens": "./src/screens",
+    "services": "./src/services",
+    "utils": "./src/utils",
+    "types": "./src/types",
+    "i18n": "./src/i18n",
+    "locales": "./assets/locales"
+  },
+  "buildCommands": {
+    "install": "npm install",
+    "start": "expo start",
+    "start:tunnel": "expo start --tunnel",
+    "start:lan": "expo start --lan", 
+    "start:localhost": "expo start --localhost",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios",
+    "build:web": "expo build:web",
+    "eject": "expo eject",
+    "test": "npm test",
+    "test:watch": "npm test -- --watch",
+    "lint": "npm run lint",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "npm run format",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "core": [
+      "expo",
+      "react",
+      "react-native"
+    ],
+    "navigation": [
+      "@react-navigation/native",
+      "@react-navigation/stack",
+      "react-native-screens",
+      "react-native-safe-area-context"
+    ],
+    "state": [
+      "zustand"
+    ],
+    "storage": [
+      "@react-native-async-storage/async-storage"
+    ],
+    "ui": [
+      "expo-image-picker",
+      "expo-image-manipulator"
+    ],
+    "i18n": [
+      "i18next",
+      "react-i18next",
+      "expo-localization"
+    ],
+    "utils": [
+      "expo-constants"
+    ]
+  },
+  "features": {
+    "authentication": {
+      "enabled": true,
+      "providers": ["email", "phone", "social"]
+    },
+    "booking": {
+      "enabled": true,
+      "calendar": true,
+      "notifications": true
+    },
+    "payments": {
+      "enabled": true,
+      "providers": ["stripe", "paypal"]
+    },
+    "localization": {
+      "enabled": true,
+      "defaultLanguage": "en",
+      "supportedLanguages": ["en", "es", "de", "tr"]
+    },
+    "offline": {
+      "enabled": true,
+      "syncStrategy": "background"
+    },
+    "analytics": {
+      "enabled": true,
+      "provider": "expo-analytics"
+    }
+  },
+  "styling": {
+    "theme": {
+      "primary": "#007AFF",
+      "secondary": "#34C759", 
+      "accent": "#FF9500",
+      "background": "#F2F2F7",
+      "surface": "#FFFFFF",
+      "text": "#000000"
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32
+    },
+    "typography": {
+      "fontFamily": "System",
+      "sizes": {
+        "small": 14,
+        "medium": 16,
+        "large": 20,
+        "xlarge": 24
+      }
+    }
+  },
+  "performance": {
+    "hermes": true,
+    "flipper": true,
+    "fastRefresh": true,
+    "codeGeneration": "async"
+  },
+  "security": {
+    "enableSecureStorage": true,
+    "enforceHttps": true,
+    "validateCertificates": true
+  },
+  "testing": {
+    "framework": "jest",
+    "testRunner": "jest",
+    "coverage": {
+      "enabled": true,
+      "threshold": 80
+    },
+    "e2e": {
+      "framework": "detox",
+      "enabled": false
+    }
+  },
+  "deployment": {
+    "environments": {
+      "development": {
+        "apiUrl": "http://localhost:3000",
+        "debugMode": true
+      },
+      "staging": {
+        "apiUrl": "https://api-staging.barberbuddy.com",
+        "debugMode": false
+      },
+      "production": {
+        "apiUrl": "https://api.barberbuddy.com",
+        "debugMode": false
+      }
+    }
+  },
+  "permissions": {
+    "camera": "Allow BarberBuddy to take photos for profile pictures",
+    "photoLibrary": "Allow BarberBuddy to access photos for profile pictures",
+    "notifications": "Allow BarberBuddy to send booking reminders",
+    "location": "Allow BarberBuddy to find nearby barbershops",
+    "contacts": "Allow BarberBuddy to sync customer information"
+  },
+  "expo": {
+    "name": "BarberBuddy",
+    "slug": "barberbuddy",
+    "scheme": "barberbuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.barberbuddy.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#007AFF"
+      },
+      "package": "com.barberbuddy.app"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
