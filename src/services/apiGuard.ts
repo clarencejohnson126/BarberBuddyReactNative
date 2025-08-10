@@ -1,6 +1,7 @@
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { STRIPE_SECRET_KEY, STRIPE_ACCOUNT_ID_EXPECTED, OPENAI_API_KEY, REPLICATE_API_TOKEN } from '@env';
 
 interface GuardResult {
   status: 'PASS' | 'FAIL' | 'WARNING';
@@ -167,8 +168,8 @@ export class APIGuard {
   }
 
   private static async validateStripe(): Promise<ServiceStatus> {
-    const secretKey = Constants.expoConfig?.extra?.STRIPE_SECRET_KEY;
-    const expectedAccountId = Constants.expoConfig?.extra?.STRIPE_ACCOUNT_ID_EXPECTED;
+    const secretKey = STRIPE_SECRET_KEY;
+    const expectedAccountId = STRIPE_ACCOUNT_ID_EXPECTED;
     
     if (!secretKey || !expectedAccountId) {
       return {
@@ -295,7 +296,7 @@ export class APIGuard {
   }
 
   private static async validateOpenAI(): Promise<ServiceStatus> {
-    const apiKey = Constants.expoConfig?.extra?.OPENAI_API_KEY;
+    const apiKey = OPENAI_API_KEY;
     
     if (!apiKey) {
       return {
@@ -352,7 +353,7 @@ export class APIGuard {
   }
 
   private static async validateReplicate(): Promise<ServiceStatus> {
-    const token = Constants.expoConfig?.extra?.REPLICATE_API_TOKEN;
+    const token = REPLICATE_API_TOKEN;
     
     if (!token) {
       return {

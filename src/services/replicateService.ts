@@ -1,7 +1,9 @@
 // Replicate API Service for BarberBuddy
 // REST HTTP endpoints implementation for React Native compatibility
 
+import { Platform } from 'react-native';
 import Constants from 'expo-constants';
+import { REPLICATE_API_TOKEN } from '@env';
 import {
   ReplicateConfig,
   HaircutParams,
@@ -17,7 +19,7 @@ import {
 
 // Factory function to create ReplicateService instance
 export const createReplicateService = (): ReplicateService => {
-  const apiToken = Constants.expoConfig?.extra?.REPLICATE_API_TOKEN || 
+  const apiToken = REPLICATE_API_TOKEN || 
                    Constants.expoConfig?.extra?.replicateApiToken ||
                    process.env.REPLICATE_API_TOKEN;
   

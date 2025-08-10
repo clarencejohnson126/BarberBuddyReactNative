@@ -1,12 +1,11 @@
 import { Platform } from 'react-native';
 import Constants from 'expo-constants';
+import { STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, STRIPE_ACCOUNT_ID_EXPECTED, STRIPE_ALLOW_CATALOG_MUTATIONS } from '@env';
 import { APIErrorHandler } from './errorHandler';
 
-// React Native requires environment variables to be accessed through expo-constants
-// Never use process.env directly in React Native - it won't work!
-const STRIPE_ACCOUNT_ID_EXPECTED = Constants.expoConfig?.extra?.STRIPE_ACCOUNT_ID_EXPECTED;
-const STRIPE_SECRET_KEY = Constants.expoConfig?.extra?.STRIPE_SECRET_KEY;
-const STRIPE_ALLOW_CATALOG_MUTATIONS = Constants.expoConfig?.extra?.STRIPE_ALLOW_CATALOG_MUTATIONS === 'true';
+// API keys are now imported from @env
+// Convert STRIPE_ALLOW_CATALOG_MUTATIONS to boolean
+const STRIPE_ALLOW_CATALOG_MUTATIONS_BOOL = STRIPE_ALLOW_CATALOG_MUTATIONS === 'true';
 
 let accountVerified = false;
 let cachedAccountInfo: any = null;
@@ -61,7 +60,7 @@ export async function verifyStripeAccount(): Promise<any> {
     console.log(`Account ID: ${account.id}`);
     console.log(`Business Name: ${account.business_profile?.name}`);
     console.log(`Dashboard Name: ${account.settings?.dashboard?.display_name}`);
-    console.log(`Catalog Mutations Enabled: ${STRIPE_ALLOW_CATALOG_MUTATIONS}`);
+    console.log(`Catalog Mutations Enabled: ${STRIPE_ALLOW_CATALOG_MUTATIONS_BOOL}`);
     console.log(`Environment: ${Platform.OS === 'web' ? 'web' : 'native'}`);
     console.log('=========================\n');
 
@@ -297,7 +296,7 @@ export async function createSubscriptionPrice(productId: string, amount: number,
  * Check if catalog mutations are allowed
  */
 export function canMutateStripeCatalog(): boolean {
-  if (!STRIPE_ALLOW_CATALOG_MUTATIONS) {
+  if (!STRIPE_ALLOW_CATALOG_MUTATIONS_BOOL) {
     console.warn('Stripe catalog mutations are disabled. Set STRIPE_ALLOW_CATALOG_MUTATIONS=true to enable.');
     return false;
   }
